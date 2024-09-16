@@ -1,24 +1,22 @@
 import React from 'react'
 import './navbar.css'
-import logo from 'C:/Users/Chethana/Desktop/Travel/travelingsite/Travelingsite/src/assets/images02.jpeg'
+import logo from 'C:/Users/Chethana/Desktop/Travel/travelingsite/Travelingsite/src/assets/images01.png'
 
 const Navbar = () =>{
 
     return(
-        <section className='navBarSection'>
-           <header className='header flex'>
+        <section>
+           <header className='headerflex'>
 
               
               <div className="logoDiv">
                 <a href="#" className='logo flex'>
                   <h1>TRAVEL</h1>
                 </a>
-              </div> 
-              <div className="logo">
                 <img src={logo} alt=""/>
               </div>
 
-                <div>
+                <div className='navelement'>
                  <ul>
                     <li>
                       <a href="#" className="navLink">Home</a>
